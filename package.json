@@ -1,6 +1,6 @@
 {
   "name": "@multilocale/multilocale-js-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "http client for multilocale.com",
   "main": "index.js",
   "type": "module",
