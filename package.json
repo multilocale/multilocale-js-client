@@ -27,7 +27,7 @@
   "dependencies": {
     "@multilocale/check": "0.0.1",
     "b64-lite": "1.4.0",
-    "isomorphic-fetch": "2.1.1"
+    "isomorphic-fetch": "2.2.1"
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
