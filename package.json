@@ -2,15 +2,9 @@
   "name": "@multilocale/multilocale-js-client",
   "version": "0.0.9",
   "description": "http client for multilocale.com",
-  "exports": {
-    "./*.js": {
-      "require": "./dist/*.js",
-      "import": "./src/*.mjs"
-    }
-  },
+  "type": "commonjs",
   "sideEffects": false,
   "scripts": {
-    "build": "tsup src/*js --format cjs",
     "publish": "npm publish --access public"
   },
   "repository": {
@@ -39,7 +33,6 @@
     "@babel/core": "7.20.5",
     "@babel/preset-env": "7.20.2",
     "nock": "13.2.9",
-    "publint": "^0.1.9",
-    "tsup": "^6.5.0"
+    "publint": "^0.1.9"
   }
 }
