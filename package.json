@@ -3,9 +3,9 @@
   "version": "0.0.9",
   "description": "http client for multilocale.com",
   "exports": {
-    "./*": {
-      "require": "./dist/*",
-      "import": "./src/*"
+    "./*.js": {
+      "require": "./dist/*.js",
+      "import": "./src/*.mjs"
     }
   },
   "sideEffects": false,
