@@ -1,10 +1,10 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
 import { btoa } from 'b64-lite'
 import fetch from 'isomorphic-fetch'
-import failure from './failure.js'
-import getMultilocaleUrl from './getMultilocaleUrl.js'
-import httpWithoutHeaders from './httpWithoutHeaders.js'
-import refreshAccessToken from './refreshAccessToken.js'
+import failure from './failure.mjs'
+import getMultilocaleUrl from './getMultilocaleUrl.mjs'
+import httpWithoutHeaders from './httpWithoutHeaders.mjs'
+import refreshAccessToken from './refreshAccessToken.mjs'
 
 export default async function http(config, customFailure) {
   let accessToken = await refreshAccessToken()

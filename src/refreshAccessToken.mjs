@@ -5,13 +5,13 @@ import {
   getAccessToken,
   isAccessTokenExpired,
   setAccessToken,
-} from './accessToken.js'
-import getMultilocaleUrl from './getMultilocaleUrl.js'
+} from './accessToken.mjs'
+import getMultilocaleUrl from './getMultilocaleUrl.mjs'
 import {
   getRefreshToken,
   isRefreshTokenExpired,
   setRefreshToken,
-} from './refreshToken.js'
+} from './refreshToken.mjs'
 
 export default async function refreshAccessToken() {
   let accessToken = getAccessToken()

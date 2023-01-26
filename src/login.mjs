@@ -1,6 +1,6 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
 import { btoa } from 'b64-lite'
-import post from './post.js'
+import post from './post.mjs'
 
 export default function login(email, password) {
 

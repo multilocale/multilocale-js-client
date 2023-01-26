@@ -1,5 +1,5 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
-import ClientError from './ClientError.js'
+import ClientError from './ClientError.mjs'
 
 export default function failure(response) {
 

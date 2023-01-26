@@ -1,5 +1,5 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
-import post from './post.js'
+import post from './post.mjs'
 
 export default function addProject(body) {
 

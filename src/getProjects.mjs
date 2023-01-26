@@ -1,5 +1,5 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
-import get from './get.js'
+import get from './get.mjs'
 
 export default function getProjects() {
 

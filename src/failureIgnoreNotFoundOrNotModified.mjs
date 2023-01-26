@@ -1,5 +1,5 @@
 /* Copyright 2013 - 2022 Waiterio LLC */
-import failure from './failure.js'
+import failure from './failure.mjs'
 
 export default function failureIgnoreNotFoundOrNotModified(error) {
 
