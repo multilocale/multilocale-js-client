@@ -2,12 +2,12 @@
 const checkStringNotEmpty = require('@multilocale/check/checkStringNotEmpty.js')
 const delete_ = require('./delete_.js')
 
-module.exports = function deleteTranslatablesByKey(key) {
+module.exports = function deletePhrasesByKey(key) {
   checkStringNotEmpty(key)
 
-  let url = `translatables?key=${key}`
+  let url = `phrases?key=${key}`
 
   return delete_({ url }).catch(error => {
-    throw new Error(`Couldn't delete translatables\n${error}`)
+    throw new Error(`Couldn't delete phrases\n${error}`)
   })
 }

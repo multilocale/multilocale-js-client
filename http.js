@@ -21,7 +21,7 @@ module.exports = async function http(config, customFailure) {
 
   const url = getMultilocaleUrl() + '/api/' + config.url
 
-  // console.log(`http ${config.method} ${url}`)
+  console.log(`http ${config.method} ${url}`)
 
   return fetch(url, {
     method: config.method,
