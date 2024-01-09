@@ -1,5 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
-const { btoa } = require('b64-lite')
+/* Copyright 2013 - 2024 Waiterio LLC */
 
 let token = null
 

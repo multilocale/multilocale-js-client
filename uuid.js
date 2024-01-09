@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
+/* Copyright 2013 - 2024 Waiterio LLC */
 /* eslint no-bitwise: 0 */
 
 module.exports = function uuid() {

@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
+/* Copyright 2013 - 2024 Waiterio LLC */
 const post = require('./post.js')
 
 module.exports = function addPhrases(phrases) {

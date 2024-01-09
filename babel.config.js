@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
+/* Copyright 2013 - 2024 Waiterio LLC */
 
 module.exports = {
   presets: [
@@ -7,7 +7,7 @@ module.exports = {
       {
         modules: false,
         targets: {
-          node: '18.12',
+          node: '20.9',
         },
         shippedProposals: true,
       },

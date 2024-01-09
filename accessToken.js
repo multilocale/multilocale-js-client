@@ -1,5 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
-const { atob } = require('b64-lite')
+/* Copyright 2013 - 2024 Waiterio LLC */
 
 let accessToken = null
 let callback = null

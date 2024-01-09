@@ -1,6 +1,4 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
-const { btoa } = require('b64-lite')
-const fetch = require('isomorphic-fetch')
+/* Copyright 2013 - 2024 Waiterio LLC */
 const failure = require('./failure.js')
 const getMultilocaleUrl = require('./getMultilocaleUrl.js')
 const httpWithoutHeaders = require('./httpWithoutHeaders.js')
@@ -60,7 +58,9 @@ module.exports = async function http(config, customFailure) {
           } retries left)`,
         )
         let wait = 4 ** retried * 1000
-        return new Promise(resolve => setTimeout(resolve, wait)).then(() =>
+        return new Promise(resolve => {
+          setTimeout(resolve, wait)
+        }).then(() =>
           http(
             {
               ...config,

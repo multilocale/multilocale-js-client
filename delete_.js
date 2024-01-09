@@ -1,9 +1,8 @@
-/* Copyright 2013 - 2022 Waiterio LLC */
+/* Copyright 2013 - 2024 Waiterio LLC */
 const http = require('./http.js')
 const failureIgnoreNotFoundOrNotModified = require('./failureIgnoreNotFoundOrNotModified.js')
 
 module.exports = function (config, customFailure) {
-
   config.method = 'DELETE'
 
   if (!customFailure) {
@@ -11,5 +10,4 @@ module.exports = function (config, customFailure) {
   }
 
   return http(config, customFailure)
-
 }
